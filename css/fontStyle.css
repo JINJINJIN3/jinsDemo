@@ -1,0 +1,49 @@
+
+a {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: rgb(219, 150, 163);
+  }
+a:focus, .jinsHref:hover {
+    text-decoration: none;
+    color:  rgb(219, 150, 163);
+  }
+
+  .btn-default {
+    color: #c4c0c0;
+    border: 1px solid #c4c0c0;
+    background-color: transparent;
+  }
+  
+  .btn-default:focus, .btn-default:hover {
+    color: rgb(217, 110, 130);
+    border: 2px solid  rgb(217, 110, 130);
+    outline: none;
+    background-color:  transparent;
+  }
+  .btn-default:click {
+    background:url("../img/mmqrcode1523078893360.png") no-repeat bottom center scroll;
+  }
+  body {
+    /* font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100%; */
+    color: white;
+    background-color: rgb(192, 211, 238);
+  }
+  #mainNav.navbar-shrink {
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgb(105, 145, 201);
+  }
+
+  #mainNav {
+    font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+    background-color: rgb(218, 137, 101);;
+  }
